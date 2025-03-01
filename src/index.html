@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+</head>
+<body>
+    <nav class="bg-white flex gap-40 my-15">
+        <div class="ml-70">
+            <h1 class="text-xl font-bold"><a href="#">Rad Plants</a></h1>
+        </div>
+        <div>
+            <ul class="flex gap-20 text-sm">
+                <li><a href="https://pagenotfound-red.vercel.app/">Home</a></li>
+                <li><a href="https://pagenotfound-red.vercel.app/">Catalogue</a></li>
+                <li><a href="https://pagenotfound-red.vercel.app/">Contact</a></li>
+                <li><a href="https://pagenotfound-red.vercel.app/">About</a></li>
+            </ul>
+        </div>
+        <div class="flex gap-2">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <img class="w-6"  src="./assets/shopping_cart_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="">
+             <!-- <span class="material-symbols-outlined"> -->
+                <!-- shopping_cart -->
+            <!-- </span> -->
+        </div>
+    </nav>
+
+    <div class="grid place-items-center gap-3">
+        <h3 class="text-3xl">Find perfect plants <br>   &nbsp;  &nbsp;  &nbsp;  for your home</h3>
+        <p class="text-sm">Beautiful plants that encourage you to get creative</p>
+        <button id="openPop"   class="w-34 h-10 bg-black text-white text-xs hover:bg-white hover:text-black hover:border hover:border-[#333]">Shop Now</button>
+
+          <!-- Popup -->
+        <div id="popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                 <p>This is a popup!</p>
+                 <button id="closePopup" class="mt-4 bg-red-500 text-white px-4 py-2 rounded">
+                    Close
+                </button>
+            </div>
+        </div>
+
+
+
+        <!--  <img src="./assets/img1.png">  -->
+        <img src="./assets/img2.png">
+    </div>
+
+    <div class="grid place-items-center my-48">
+        <h3 class="text-xl my-7">
+            Catergories
+        </h3>
+        <div class="flex gap-4">
+            <img class="" src="./assets/img3.png">
+            <img src="./assets/img4.png">
+            <img src="./assets/img5.png">
+        </div>
+    </div>
+
+    <div class="grid place-items-center my-25">
+        <h1 class="text-2xl">Love and work are to people what water  <br>  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   and sunshine are to plants</h1>
+        <div class="flex gap-6 my-20">
+            <div class="mr-30">
+                <h1 class="text-xl mb-3">Featured</h1>
+                <p class="text-xs pb-3">Our plants are 100% organic, <br> we don't use pestisides or <br>  harmful chemicals</p>
+                <p class="text-xs mb-4">But please don't eat them</p>
+                <button class="w-48 text-xs h-9 border border-[#333] hover:bg-black hover:text-white "><a href="https://pagenotfound-red.vercel.app/">Shop all favourites</a></button>
+            </div>
+            <div class="inline">
+                <img src="./assets/img6.png">
+                <p class="text-xs text-gray-400 mt-4">Plant 1</p>
+                <p class="text-sm">150 £</p>
+            </div>
+            <div class="inline">
+                <img src="./assets/img7.png">
+                <p class="text-xs text-gray-400 mt-4">Plant 1</p>
+                <p class="text-sm">150 £</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center my-10 gap-6">
+        <div class="inline">
+            <img src="./assets/img8.png">
+            <p class="text-xs text-gray-400 my-1">Edition 291</p>
+            <p class="text-sm"><a href="#">How to water your freaking plants <br>  so they don't end up dying</a></p>
+        </div>
+        <div class="inline">
+            <img src="./assets/img9.png">
+            <p class="text-xs text-gray-400 my-1">Edition 292</p>
+            <p class="text-sm"><a href="#">How to report a Monstera without <br> killing it and foster its growth</a></p>
+        </div>
+    </div>
+    <div class="grid place-items-center my-20">
+        <h3 class=" text-sm">Get 15% off your next order.</h3>
+        <h3 class="mb-5 text-sm">Subscribe to our Newsletter</h3>
+        <form action="#" class="flex">
+            <input  class="w-75 h-7 text-xs  text-black bg-gray-300"  type="email" name="" id="" placeholder="Enter your email here*"> <input class="w-30 h-7 bg-black text-white text-xs"  type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="flex justify-center gap-70 my-10">
+        <div>
+            <h3>Rad Plants</h3>
+        </div>
+        <div class="flex gap-20">
+            <div>
+                <ul class="text-xs">
+                    <p class="text-gray-400">Connect</p>
+                    <li ><a href="#">Instagram</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+            <div class="text-xs">
+                <ul>
+                    <p class="text-gray-400">Resources</p>
+                    <li>Return Policy</li>
+                    <li>Track an order</li>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="text-xs">
+                <ul>
+                    <p class="text-gray-400">About</p>
+                    <li>Our Story</li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
