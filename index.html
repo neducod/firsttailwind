@@ -111,20 +111,25 @@
         </div>
     </div>
 
-    <div class="grid place-items-center my-20">
+    <div class="grid place-items-center my-20 grid-cols-1">
         <h3 class=" text-sm">Get 15% off your next order.</h3>
         <h3 class="mb-5 text-sm">Subscribe to our Newsletter</h3>
-        <form action="#" class="flex">
-            <input  class="w-75 h-7 text-xs  text-black bg-gray-300"  type="email" name="" id="" placeholder="Enter your email here*"> <input class="w-30 h-7 bg-black text-white text-xs"  type="submit" value="Submit">
+        <form action="#" class="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-2 px-4 my-6">
+            <!-- flex flex-wrap justify-center  -->
+            <input class="w-full sm:w-72 h-8 px-2 text-xs text-black bg-gray-300 rounded"  type="email" name="" id="" placeholder="Enter your email here*"> 
+            <!--  class="w-75 h-7 text-xs  text-black bg-gray-300"  -->
+            <input class="  w-full sm:w-28 h-8 bg-black text-white text-xs rounded"  type="submit" value="Submit">
+            <!-- w-30 h-7 bg-black text-white text-xs -->
         </form>
     </div>
 
-    <div class="flex justify-center gap-70 my-10">
+    <div class="flex flex-col md:flex-row justify-center items-start gap-10 md:gap-40 my-10 px-4 text-center md:text-left">
+        <!-- flex justify-center gap-70 my-10 -->
         <div>
             <h3>Rad Plants</h3>
         </div>
         <div class="flex gap-20">
-            <div>
+            <div class="flex flex-col sm:flex-row gap-8 text-xs">
                 <ul class="text-xs">
                     <p class="text-gray-400">Connect</p>
                     <li ><a href="#">Instagram</a></li>
