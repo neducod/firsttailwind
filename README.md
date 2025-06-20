@@ -1,6 +1,5 @@
 # firsttailwind
 
-Here's a simple README for your first Tailwind website:  
 
 ---
 
