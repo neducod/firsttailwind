@@ -368,6 +368,9 @@
       max-width: 96rem !important;
     }
   }
+  .mx-auto {
+    margin-inline: auto;
+  }
   .my-0 {
     margin-block: calc(var(--spacing) * 0);
   }
@@ -665,8 +668,14 @@
   .w-200 {
     width: calc(var(--spacing) * 200);
   }
+  .w-full {
+    width: 100%;
+  }
   .w-screen {
     width: 100vw;
+  }
+  .max-w-\[1280px\] {
+    max-width: 1280px;
   }
   .max-w-none {
     max-width: none;
